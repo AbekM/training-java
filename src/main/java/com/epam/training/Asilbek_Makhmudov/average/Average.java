@@ -17,7 +17,6 @@ public class Average {
                 sum += input;
                 numberOfInputs++;
                 average = sum / numberOfInputs;
-
             }
         }while (input != 0);
         System.out.println(average);
